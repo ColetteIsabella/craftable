@@ -20,8 +20,12 @@ body {color:#111;
       font-family:"Gilda Display", Helvetica, serif;}
 h1, h2, h3, h4, h5, h6 {font-weight:normal;
                         color:#111;}
+header {font-size:42px;
+        color:#996699;
+        line-height:1;
+        margin-bottom:0.5em;
+        text-align:center;}
 h1 {font-size:42px;
-    color:#996699;
     line-height:1;
     margin-bottom:0.5em;}
 h2 {font-size:26px;
@@ -78,7 +82,8 @@ caption {background:#eee;}
 
 .craft_item {float:left;
             padding:2em;
-            font-size:26px;}
+            font-size:20px;
+            font-style:bold;}
 .craft_buttons {overflow:hidden;}
 
 ul#nav {float:left;
@@ -88,7 +93,8 @@ ul#nav {float:left;
         margin:0;
         padding:0;}
 ul#nav li {float: left;}
-ul#nav li a{display:inline;
+ul#nav li a{display:block;
+            text-decoration:none;
             float:left;
             padding:0;
             margin-right:1em;
@@ -97,8 +103,8 @@ ul#nav li a{display:inline;
             font-weight:bold;}
 ul#nav li a:hover{padding:0;
                   background-color:#996699;}
-.nav-collapse{}
+
 #container{width:auto;
           height:42px;
-          float:left;
           background-color:#000000;}
+.video {text-align:center;}
